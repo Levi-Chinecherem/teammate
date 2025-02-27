@@ -1,0 +1,36 @@
+# Core utilities
+wheel
+setuptools
+python-dotenv  # For loading .env variables
+
+# Multi-agent framework
+langgraph  # Note: Check latest version on PyPI as this is experimental
+
+# Microsoft Teams integration
+msgraph-core  # Microsoft Graph API client
+requests     # HTTP requests for API calls
+
+# NLP and LLM
+transformers  # Hugging Face Transformers for NLP and suggestions
+torch          # PyTorch, required by Transformers
+
+# Speech processing
+azure-cognitiveservices-speech  # Azure Speech SDK
+
+# Document processing
+pandas         # Excel and CSV parsing
+python-docx    # DOCX parsing
+PyPDF2         # PDF parsing
+python-pptx   # PowerPoint parsing
+pytesseract   # OCR for images
+SpeechRecognition  # Audio transcription
+moviepy        # Video audio extraction
+
+# Data validation and database
+pydantic       # Data modeling
+psycopg2-binary  # PostgreSQL connector
+
+# Task scheduling
+celery         # Background tasks (e.g., reminders)
+redis          # Redis as Celery broker (optional, install Redis separately)
+bottle
